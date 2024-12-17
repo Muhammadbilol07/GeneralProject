@@ -1,0 +1,15 @@
+@import "general";
+@import "container";
+
+*{
+    @include general()
+}
+body {
+    @include body();
+}
+.container{
+    @include container();
+}
+h1{
+    text-align: center;
+}
